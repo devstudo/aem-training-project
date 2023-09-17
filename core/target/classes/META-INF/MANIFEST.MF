@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-Category: AEM Training Project
+Bundle-Description: Core bundle for AEM Training Project
+Bundle-ManifestVersion: 2
+Bundle-Name: AEM Training Project - Core
+Bundle-SymbolicName: aem-training-project.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.adobe.aem.guides.aemtraining.core.filters;version=
+ "1.0";uses:="javax.servlet",com.adobe.aem.guides.aemtraining.core.lis
+ teners;version="1.0";uses:="org.apache.sling.api.resource.observation
+ ",com.adobe.aem.guides.aemtraining.core.models;version="1.0";uses:="j
+ avax.annotation,org.apache.sling.api.resource,org.apache.sling.models
+ .annotations,org.apache.sling.models.annotations.injectorspecific",co
+ m.adobe.aem.guides.aemtraining.core.schedulers;version="1.0",com.adob
+ e.aem.guides.aemtraining.core.servlets;version="1.0";uses:="javax.ser
+ vlet,org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.guides.
+ aemtraining.core.filters;version="[1.0,2)",com.adobe.aem.guides.aemtr
+ aining.core.listeners;version="[1.0,2)",com.adobe.aem.guides.aemtrain
+ ing.core.schedulers;version="[1.0,2)",com.adobe.aem.guides.aemtrainin
+ g.core.servlets;version="[1.0,2)",com.day.cq.wcm.api;version="[1.29,2
+ )",javax.servlet;version="[3.1,4)",org.apache.sling.api;version="[2.3
+ ,3)",org.apache.sling.api.request;version="[2.4,3)",org.apache.sling.
+ api.resource;version="[2.12,3)",org.apache.sling.api.resource.observa
+ tion;version="[1.2,2)",org.apache.sling.api.servlets;version="[2.3,3)
+ ",org.apache.sling.models.annotations;version="[1.5,2)",org.apache.sl
+ ing.models.annotations.injectorspecific;version="[1.1,2)",org.slf4j;v
+ ersion="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.guides.aemtraining.core.filt
+ ers.LoggingFilter.xml,OSGI-INF/com.adobe.aem.guides.aemtraining.core.
+ listeners.SimpleResourceListener.xml,OSGI-INF/com.adobe.aem.guides.ae
+ mtraining.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.
+ aem.guides.aemtraining.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.adobe.aem.guides.aemtraining.core.models.Hell
+ oWorldModel
+

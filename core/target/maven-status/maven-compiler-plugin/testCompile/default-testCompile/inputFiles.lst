@@ -1,0 +1,6 @@
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/servlets/SimpleServletTest.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/listeners/SimpleResourceListenerTest.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/schedulers/SimpleScheduledTaskTest.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/filters/LoggingFilterTest.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/models/HelloWorldModelTest.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/test/java/com/adobe/aem/guides/aemtraining/core/testcontext/AppAemContext.java

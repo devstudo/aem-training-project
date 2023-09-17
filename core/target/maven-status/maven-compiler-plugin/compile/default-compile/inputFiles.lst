@@ -1,0 +1,10 @@
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/servlets/package-info.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/models/package-info.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/filters/package-info.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/servlets/SimpleServlet.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/listeners/package-info.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/filters/LoggingFilter.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/schedulers/package-info.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/schedulers/SimpleScheduledTask.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/listeners/SimpleResourceListener.java
+/Users/benhalima/Documents/DEV/trainings/projects/aem-training-project/core/src/main/java/com/adobe/aem/guides/aemtraining/core/models/HelloWorldModel.java

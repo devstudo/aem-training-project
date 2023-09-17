@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Training Project - UI content
+Content-Package-Roots: /conf/aemtraining,/content/aemtraining,/content
+ /dam/aemtraining/asset.jpg,/content/experience-fragments/aemtraining
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobe.aem.guides:aem-train
+ ing-project.ui.apps:0.0.1-SNAPSHOT=maven:com.adobe.aem.guides:aem-tra
+ ining-project.ui.apps:0.0.1-SNAPSHOT:zip
+Content-Package-Dependencies: com.adobe.aem.guides:aem-training-projec
+ t.ui.apps:0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: content
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.adobe.aem.guides:aem-training-project.ui.conte
+ nt:0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for AEM Training Proje
+ ct
+
