@@ -77,6 +77,8 @@
             </image>
             <text jcr:primaryType="nt:unstructured">
                 <policy_641562756958017
+                    jcr:lastModified="{Date}2023-09-18T02:02:04.536+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Text"
                     sling:resourceType="wcm/core/components/policy/policy">
@@ -157,7 +159,7 @@
                             features="bold,italic"/>
                         <links
                             jcr:primaryType="nt:unstructured"
-                            features="modifylink,unlink"/>
+                            features="-"/>
                         <subsuperscript
                             jcr:primaryType="nt:unstructured"
                             features="-"/>
@@ -190,6 +192,8 @@
                 <policy_header
                     cq:styleDefaultElement="header"
                     jcr:description="Sets a &lt;header> element on the page header experience fragment."
+                    jcr:lastModified="{Date}2023-09-18T00:22:30.382+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Header"
                     sling:resourceType="wcm/core/components/policy/policy">
@@ -198,6 +202,8 @@
                 <policy_footer
                     cq:styleDefaultElement="footer"
                     jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
+                    jcr:lastModified="{Date}2023-09-18T00:22:56.025+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Footer"
                     sling:resourceType="wcm/core/components/policy/policy">
@@ -207,10 +213,13 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2023-09-18T01:06:50.875+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:AEM Training Project - Content,/apps/aemtraining/components/form/container,group:AEM Training Project - Structure]">
+                    components="[group:AEM Training Project - Content,/apps/aemtraining/components/form/container,group:AEM Training Project - Structure]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -237,10 +246,13 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2023-09-18T01:05:20.324+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:AEM Training Project - Content,/apps/aemtraining/components/form/container]">
+                    components="[group:AEM Training Project - Content,/apps/aemtraining/components/form/container]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -268,9 +280,12 @@
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
                     jcr:description="Sets a &lt;main> element on the page content area."
+                    jcr:lastModified="{Date}2023-09-18T00:29:01.555+02:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
-                    sling:resourceType="wcm/core/components/policy/policy">
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_649128221558427>
                 <policy_1575040440977
@@ -303,6 +318,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_82811824975500
+                    jcr:lastModified="{Date}2023-09-18T01:15:24.299+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Article Page - Side Rail"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/aemtraining/components/button,/apps/aemtraining/components/download,/apps/aemtraining/components/image,/apps/aemtraining/components/list,/apps/aemtraining/components/separator,/apps/aemtraining/components/text,/apps/aemtraining/components/title,/apps/wknd/components/sharing]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_82811824975500>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -339,6 +364,20 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <breadcrumb jcr:primaryType="nt:unstructured">
+                <policy_1694991583582
+                    jcr:lastModified="{Date}2023-09-18T01:04:41.446+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Article Page - Breadcrumb"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="4">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1694991583582>
+            </breadcrumb>
         </components>
     </aemtraining>
 </jcr:root>

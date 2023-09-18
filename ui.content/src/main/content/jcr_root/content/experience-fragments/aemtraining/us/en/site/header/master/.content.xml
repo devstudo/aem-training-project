@@ -12,23 +12,57 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="aemtraining/components/container"
-            layout="simple">
+            layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2023-09-18T03:23:15.754+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-09-18T03:25:11.341+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemtraining/components/image"
+                alt="WKND logo"
+                altValueFromDAM="false"
+                displayPopupTitle="true"
+                fileReference="/content/dam/wknd/en/site/wknd-logo-dk.svg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self"
+                linkURL="/content/aemtraining/us/en"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </image>
             <navigation
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aemtraining/components/navigation"
                 collectAllPages="false"
+                disableShadowing="false"
                 navigationRoot="/content/aemtraining/us/en"
                 skipNavigationRoot="false"
-                structureDepth="1"/>
-            <languagenavigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemtraining/components/languagenavigation"
-                navigationRoot="/content/aemtraining/us"
-                structureDepth="2"/>
+                structureDepth="1"
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </navigation>
+            <logo/>
             <search
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemtraining/components/search"
-                searchRoot="/content/aemtraining/us"/>
+                sling:resourceType="aemtraining/components/search">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </search>
         </root>
     </jcr:content>
 </jcr:root>
